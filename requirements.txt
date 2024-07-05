@@ -1,0 +1,8 @@
+natsort
+numpy
+scipy
+SoundFile
+torch
+torchaudio
+tqdm
+pesq

@@ -1,0 +1,4 @@
+python -u evaluate.py \
+    --noisy_dir /mntcephfs/lab_data/fangzihao/enhancement/data/DEMAND_16KHz/test/noisy \
+    --clean_dir /mntcephfs/lab_data/fangzihao/enhancement/data/DEMAND_16KHz/test/clean \
+    --enhanced_dir /mntcephfs/lab_data/fangzihao/enhancement/CMGAN/src/res_epoch_89
