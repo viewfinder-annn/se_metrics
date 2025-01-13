@@ -2,3 +2,9 @@ python -u evaluate.py \
     --noisy_dir /mntcephfs/lab_data/fangzihao/enhancement/data/DEMAND_16KHz/test/noisy \
     --clean_dir /mntcephfs/lab_data/fangzihao/enhancement/data/DEMAND_16KHz/test/clean \
     --enhanced_dir /mntcephfs/lab_data/fangzihao/enhancement/CMGAN/src/res_epoch_89
+
+python -u evaluate.py \
+    --noisy_dir /mnt/data2/zhangjunan/open-universe/data/voicebank_demand/48k/test/noisy \
+    --clean_dir /mnt/data2/zhangjunan/open-universe/data/voicebank_demand/48k/test/clean \
+    --enhanced_dir /mnt/data2/zhangjunan/muse-maskgit-pytorch/exp/urgentchallenge2024-55M-20240711-03:06/infer/epoch-3-step-40000-loss-4.9644449803352355/enhanced \
+    --target_sr 16000
